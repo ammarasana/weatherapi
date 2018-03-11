@@ -1,0 +1,45 @@
+// 20180311124855
+// http://api.openweathermap.org/data/2.5/weather?q=lahore&units=metric&appid=a5b927040586c615c09adfa9445ca87f
+
+{
+  "coord": {
+    "lon": 74.33,
+    "lat": 31.52
+  },
+  "weather": [
+    {
+      "id": 721,
+      "main": "Haze",
+      "description": "haze",
+      "icon": "50d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 27.36,
+    "pressure": 1013,
+    "humidity": 30,
+    "temp_min": 26,
+    "temp_max": 29
+  },
+  "visibility": 4000,
+  "wind": {
+    "speed": 2.1,
+    "deg": 300
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1520751600,
+  "sys": {
+    "type": 1,
+    "id": 7133,
+    "message": 0.0025,
+    "country": "PK",
+    "sunrise": 1520731068,
+    "sunset": 1520773677
+  },
+  "id": 1172451,
+  "name": "Lahore",
+  "cod": 200
+}
